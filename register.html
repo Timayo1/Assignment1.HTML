@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <!--Forms-->
+    <form action="register-success.html" target="_blank" method="post">
+        <h4>INPUT YOUR DATA HERE</h4>
+        <label for="firstname">Firstname</label> <br>
+        <input type="text" name="firstname" id="firstname" placeholder="Type your Firstname" required> <br>
+
+        <label for="lastname">Lastname</label> <br>
+        <input type="text" name="lastname" id="lastname" placeholder="Type your firstname" required> <br> 
+
+        <label for="email">Email Address</label> <br>
+        <input type="email" name="email" id="email" placeholder="Type your email" required> <br> 
+
+        <label for="date of birth"> Date of birth</label> <br>
+        <input type="date" name="dob" id="dob" required> <br> 
+
+        <label for="gender">Gender</label> <br>
+        <select name="gender" id="gender">
+            <option value="female">Female</option>
+            <option value="Male">Male</option>
+            <option value="None">None</option> <br> 
+        </select> <br>
+       <label for="password">Password</label> <br>
+       <input type="password" name="password" id="password" placeholder="Input password" required> <br>
+
+       <label for="password">Confirm password</label> <br>
+       <input type="password" name="password" id="confirm_" placeholder="Confirm password" required> <br>
+
+       <input type="submit" name="submit" id="submit" value="Register">
+    </form>
+</body>
+</html>
